@@ -1,0 +1,24 @@
+{
+  "name": "multiplayertest",
+  "version": "1.0.0",
+  "description": "As of now I am not currently sure what I am going to do with this",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeehamsonThe3rd/multiplayertest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeehamsonThe3rd/multiplayertest/issues"
+  },
+  "homepage": "https://github.com/LeehamsonThe3rd/multiplayertest#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  }
+}

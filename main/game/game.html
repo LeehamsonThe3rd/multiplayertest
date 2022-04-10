@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Title</h1>
+    <h2 id="username">null</h2>
+    <h2 id="status">null</h2>
+    <h2 id="playerlistlabel">Player List:</h2>
+    <div id="playerlistdiv">
+      <ul id="playerlist"></ul>
+    </div>
+    <h2 id="chatlabel">Global Chat:</h2>
+    <div id="chatdiv">
+      <ul id="chat"></ul>
+    </div>
+    <input id="chattextentry" placeholder="Type a message here!"></input>
+    <button id="chatsend">Send</button>
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+    <script src="game.js"></script>
+  </body>
+</html>

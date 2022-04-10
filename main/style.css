@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(36, 36, 36);
+  margin: 0;
+  color:white;
+  font-family: monospace, Arial;
+}
+
+form {
+  width: 10%;
+  height: 100%;
+}
+
+.login {
+  margin-bottom:20px;
+}
+
+#error {
+  visibility: hidden;
+}
